@@ -20,7 +20,7 @@ const newItem={
 };
 
 //copy of current list of items
-const list = [....this.state.list];
+const list = [this.state.list];
 
 //add new item to list
 list.push(newItem);
